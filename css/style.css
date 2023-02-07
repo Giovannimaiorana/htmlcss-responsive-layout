@@ -144,6 +144,30 @@
     width: 100%;
     margin-bottom: 10px;
 }
+.numberviolet{
+    font-size: 40px;
+    font-style: bold;
+    color: rgb(151, 146, 228);
+    text-align: left;
+}
+.card-white .sub-title h4{
+    text-align: left;
+    color: rgb(151, 146, 228);
+    margin: 20px 0;
+}
+.card-white .paraghraph p{
+    color: rgb(89, 110, 127);
+    line-height: 30px;
+}
+.card-white .btn{
+    background-color: rgb(151, 146, 228);
+    height: 30px;
+    width: 100px;
+    padding: 8px;
+    text-align: center;
+    margin-top: 20px;
+    letter-spacing: 4px;
+}
 /*fine quarta section*/
 
 /*Inizio quinta section*/
@@ -272,7 +296,7 @@
     align-items: center;
 }
 .radius{
-    border-radius: 40px;
+    border-radius: 20px;
 }
 .d-col{
     flex-direction: column;
