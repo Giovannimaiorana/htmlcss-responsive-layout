@@ -219,6 +219,13 @@
     height: 100px;
     background-color: rgb(44, 44, 44);
 }
+.title-footer{
+    margin-top: 20px;
+}
+.footer-sub{
+    margin-top: 20px;
+
+}
 /*Fine footer*/
 
 
