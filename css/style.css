@@ -85,7 +85,7 @@
 
 
 /*inizio seconda section*/
-.full{
+.full {
     background-color: rgb(151, 146, 228);
     width: 100%;
     margin-bottom: 10px;
@@ -190,7 +190,25 @@
 
 /*Fine quinta Section*/
 /*Inizio sesta section*/
-
+.full-last {
+    background-color: rgb(151, 146, 228);
+    width: 100%;
+    
+}
+.full-last .textlast-s{
+    margin: 30px 0px;
+}
+.full-last .subtitle-last{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.full-last .title-last{
+    font-size: 80px;
+    color: rgb(252, 193, 95);
+}
+.full-last .paraghraph-last{
+    margin: 30px;
+}
 
 
 /*Fine sesta section*/
