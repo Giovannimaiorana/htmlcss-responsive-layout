@@ -85,12 +85,20 @@
     flex-direction: column;
     align-items: center;
 }
-
-
 /*Fine quinta Section*/
+/*Inizio sesta section*/
 
 
+
+/*Fine sesta section*/
 /*FINE MAIN*/
+/*Inizio footer*/
+.container-footer{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(44, 44, s44);
+}
+/*Fine footer*/
 
 
 /*RESPONSIVE*/
