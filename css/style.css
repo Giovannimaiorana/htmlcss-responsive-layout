@@ -50,6 +50,7 @@
 .planning-section{
     background-color: rgb(151, 146, 228);
     width: 100%;
+    margin-bottom: 10px;
    
 }
 .planning-section .container{
@@ -57,20 +58,17 @@
     flex-direction: column; 
 }
 .col{
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 10px 0px;
 }
 /*fine seconda section*/
 
 
 /*inizio terza section*/
-
-
-
-
-
-
-
+.col-violet{
+    background-color: rgb(151, 146, 228);
+    margin:  20px;
+    padding: 10px;
+}
 /*fine terza section*/
 
 /*FINE MAIN*/
@@ -89,9 +87,6 @@
         width: calc((100% / 3) - 20px);
         margin-left: 10px;
         margin-right: 10px;
-
-        
-
     }
     .intro .card:first-child{
         width: calc((100% / 3 * 2) - 20px );
@@ -109,13 +104,10 @@
    .container{
     max-width: 950px;
    }
-
-
    .planning-section .container{
     flex-direction: row;
     flex-wrap: nowrap;
    }
-
    .col{
     width: 50%;
    }
@@ -147,4 +139,7 @@
 }
 .backg-white{
     background-color: white;
+}
+.backg-v{
+    background-color: rgb(151, 146, 228);
 }
