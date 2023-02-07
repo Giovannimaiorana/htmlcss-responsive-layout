@@ -116,8 +116,20 @@
 /*inizio terza section*/
 .col-violet{
     background-color: rgb(151, 146, 228);
-    margin:  20px;
+    margin:  40px;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title h1{
+    margin: 20px;
+}
+.col-violet .testimonial img{
+ object-fit: cover;
+ height: 150px;
+ width:150px;
+ border-radius: 200px;
 }
 /*fine terza section*/
 
@@ -195,6 +207,15 @@
     .container .col33{
         width: calc((30%) - 40px);
     }
+    .col-violet{
+        flex-direction: row;
+    }
+    .testimonial{
+        width: 30%;
+    }
+    .text{
+        width: 60%;
+    }
 }
 
 
@@ -265,6 +286,9 @@
 .font-black{
     color: black;
 }
+.font-viole{
+    color: rgb(151, 146, 228);
+}
 .backg-v{
     background-color: rgb(151, 146, 228);
 }
@@ -284,4 +308,8 @@
 }
 .italic{
     font-style: italic;
+}
+.col{
+    margin:  auto;
+    padding: 30px;
 }
