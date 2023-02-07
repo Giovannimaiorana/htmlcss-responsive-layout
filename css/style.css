@@ -4,7 +4,10 @@
     box-sizing: border-box;
 }
 /* REGOLE DI DEBUG*/
-
+.col-debug{
+    height: 100px;
+   
+}
 
 
 
@@ -24,7 +27,6 @@
 .container{
     max-width: 600px;
     margin: auto;
-    height: 80px;
 }
 /*FINE HEADER*/
 
@@ -36,17 +38,40 @@
 .intro{
     margin-top: 100px;
 }
-.col{
+.card{
     background-color: rgb(181, 221, 255);
     margin-bottom: 20px;
     padding: 10px;
 }
 /*fine prima section*/
+
+
 /*inizio seconda section*/
-
-
- 
+.planning-section{
+    background-color: rgb(151, 146, 228);
+    width: 100%;
+   
+}
+.planning-section .container{
+    display: flex;
+    flex-direction: column; 
+}
+.col{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 /*fine seconda section*/
+
+
+/*inizio terza section*/
+
+
+
+
+
+
+
+/*fine terza section*/
 
 /*FINE MAIN*/
 
@@ -56,11 +81,11 @@
     .container{
         max-width: 730px;
     }
-    .columns{
+    .cards{
         display: flex;
         flex-wrap: wrap;
     }
-    .intro .col{
+    .intro .card{
         width: calc((100% / 3) - 20px);
         margin-left: 10px;
         margin-right: 10px;
@@ -68,7 +93,7 @@
         
 
     }
-    .intro .col:first-child{
+    .intro .card:first-child{
         width: calc((100% / 3 * 2) - 20px );
         
     }
@@ -80,10 +105,22 @@
 
 
 
-@media screen and( min-width:992px) {
+@media screen and ( min-width:992px) {
    .container{
-    max-width: 960px;
+    max-width: 950px;
    }
+
+
+   .planning-section .container{
+    flex-direction: row;
+    flex-wrap: nowrap;
+   }
+
+   .col{
+    width: 50%;
+   }
+
+
 
 }
 
@@ -104,4 +141,10 @@
 }
 .radius{
     border-radius: 10px;
+}
+.d-col{
+    flex-direction: column;
+}
+.backg-white{
+    background-color: white;
 }
