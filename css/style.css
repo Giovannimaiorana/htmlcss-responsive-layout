@@ -171,11 +171,23 @@
 /*fine quarta section*/
 
 /*Inizio quinta section*/
-.about-section .container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.title-about h1{
+    color: rgb(151, 146, 228);
+    font-size: 40px;
+    margin: 20px;
 }
+.text-about p{
+    margin: 20px;
+    line-height: 30px;
+}
+.container .col33 .linkedin-pho img{
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin: 20px;
+}
+
 /*Fine quinta Section*/
 /*Inizio sesta section*/
 
@@ -239,6 +251,16 @@
     }
     .text{
         width: 60%;
+    }
+    .about-section .container{
+        display: flex;
+        flex-direction: row;
+    }
+    .col66{
+        width: 40%;
+    }
+    .col33{
+        width: 40%;
     }
 }
 
